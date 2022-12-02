@@ -1,8 +1,11 @@
 name: My Github Actions
 
-on:[push]
+on:
+ push:
+  branches: main
+  
 
-    steps:
+   steps:
 
        - id: 1w
          run: echo "AA=Hello" >> $GITHUB_OUTPUT
