@@ -13,20 +13,4 @@ on:[push]
 
 
        - run: echo ${{ steps.1w.outputs.AA }} ${{ steps.2w.outputs.BB }}
-       
-name: Setup Go environment
-  uses: actions/setup-go@v3.4.0
-  with:
-    go-version: # optional
-    
-    go-version-file: # optional
-    
-    check-latest: # optional
-    
-    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
-    
-    cache: # optional
-    
-    cache-dependency-path: # optional
-    
-    architecture: # optional
+   
