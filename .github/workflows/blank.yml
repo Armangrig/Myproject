@@ -1,6 +1,6 @@
 name: My Github Actions
 
-on:[push main]
+on:[push]
 
     steps:
 
