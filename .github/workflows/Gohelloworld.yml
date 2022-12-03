@@ -9,7 +9,7 @@ on:
         type: choice
         options:
         - "1.15"
-        - "1.20"
+        - "1.18"
 
 jobs:
   go_test:
