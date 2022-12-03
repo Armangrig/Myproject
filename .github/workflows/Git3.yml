@@ -14,10 +14,10 @@ jobs:
     steps:
 
        - id: 1ww
-         run: echo "AA=Hello" >> $GITHUB_OUTPUT
+         run: echo "AA=Barev" >> $GITHUB_OUTPUT
 
        - id: 2ww
-         run: echo "BB=world" >> $GITHUB_OUTPUT
+         run: echo "BB=inchx es" >> $GITHUB_OUTPUT
 
 
 
