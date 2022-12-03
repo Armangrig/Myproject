@@ -1,10 +1,16 @@
-name: go Hello
+name: go build&test
 
-on: [push]
-      
+on:
+  workflow_run:
+    workflows:
+      - "whith_version"
+    types:
+      - "completed"
+
+
+
 jobs:
-   build:
-   
+  go_test:
    runs-on: ubuntu-latest
 
    steps:
