@@ -1,6 +1,11 @@
 name: go Hello world
 
-on:[push]
+on:
+  workflow_run:
+    workflows:
+      - "Gohelloworld"
+    types:
+      - "completed"
 
 jobs:
   go_test:
