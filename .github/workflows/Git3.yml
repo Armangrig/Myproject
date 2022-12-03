@@ -1,0 +1,25 @@
+name: My Github Actions
+
+on:
+ 
+  push:
+    branches: 
+     - main
+      
+ 
+jobs:
+  if-Windows-else:
+    runs-on: macos-12
+   
+    steps:
+
+       - id: 1w
+         run: echo "AA=Hello" >> $GITHUB_OUTPUT
+
+       - id: 2w
+         run: echo "BB=world" >> $GITHUB_OUTPUT
+
+
+
+       - run: echo ${{ steps.1w.outputs.AA }} ${{ steps.2w.outputs.BB }}
+   
