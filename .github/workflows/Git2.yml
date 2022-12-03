@@ -1,13 +1,9 @@
 name: My Git2
 
-on:
- 
-  on: push
-   name: Slack Notification Demo
-    jobs:
-      slackNotification:
-        name: Slack Notification
-        runs-on: ubuntu-latest
+on: [push]
+jobs:
+  ka:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Slack Notification
