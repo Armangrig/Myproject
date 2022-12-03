@@ -4,11 +4,7 @@ on:
   workflow_run:
     workflows:
       - "whith_version"
-    types:
-      - "completed"
-
-
-
+    
 jobs:
   go_test:
    runs-on: ubuntu-latest
