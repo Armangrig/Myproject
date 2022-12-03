@@ -1,12 +1,7 @@
 name: go Hello world
 
-on:
-  workflow_run:
-    workflows:
-      - "Gohelloworld"
-    types:
-      - "completed"
-    
+on:[push]
+
 jobs:
   go_test:
    runs-on: ubuntu-latest
