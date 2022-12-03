@@ -3,7 +3,7 @@ name: My Git1
 on: [push]
  
 jobs:
-  if-Windows-else:
+  lav:
     runs-on: macos-12
    
     steps:
