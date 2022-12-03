@@ -1,11 +1,6 @@
 name: My Git1
 
-on:
- 
-  push:
-    branches: 
-     - main
-      
+on: [push]
  
 jobs:
   if-Windows-else:
