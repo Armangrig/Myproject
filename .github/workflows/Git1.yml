@@ -13,13 +13,13 @@ jobs:
    
     steps:
 
-       - id: 1w
+       - id: aw
          run: echo "AA=Hello" >> $GITHUB_OUTPUT
 
-       - id: 2w
+       - id: bw
          run: echo "BB=world" >> $GITHUB_OUTPUT
 
 
 
-       - run: echo ${{ steps.1w.outputs.AA }} ${{ steps.2w.outputs.BB }}
+       - run: echo ${{ steps.aw.outputs.AA }} ${{ steps.bw.outputs.BB }}
    
