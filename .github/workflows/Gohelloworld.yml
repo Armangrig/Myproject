@@ -3,7 +3,7 @@ name: go Hello world
 on:
   workflow_run:
     workflows:
-      - "whith_version"
+      - "Gohelloworld"
     types:
       - "completed"
     
