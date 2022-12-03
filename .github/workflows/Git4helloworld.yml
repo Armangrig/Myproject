@@ -1,7 +1,10 @@
 name: Go Git4
 
-on: [push]
-
+on: 
+ push: 
+  branches:
+   - main
+   
 jobs:
  karevor:
   runs-on: ubuntu-latest
