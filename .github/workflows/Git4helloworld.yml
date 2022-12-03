@@ -12,10 +12,10 @@ jobs:
   steps:
     
       - id: aw
-        run: echo "AA=Hello" >> $GITHUB_OUTPUT
+        run: echo "AA=Barev" >> $GITHUB_OUTPUT
 
       - id: bw
-        run: echo "BB=world" >> $GITHUB_OUTPUT
+        run: echo "BB=inch ka chka" >> $GITHUB_OUTPUT
 
    
       - run: echo ${{ steps.aw.outputs.AA }} ${{ steps.bw.outputs.BB }}
