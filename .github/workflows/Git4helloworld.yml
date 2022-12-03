@@ -3,7 +3,7 @@ name: Go Git4
 on: [push]
 
 jobs:
- build:
+ karevor:
   runs-on: ubuntu-latest
  
   steps:
