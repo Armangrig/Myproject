@@ -23,9 +23,7 @@ jobs:
        with:
          go-version: ${{ inputs.goversion}}
          
-     - name: print Goversion
-       run: echo ${{ inputs.goversion }}
-
+     
      - name: Build
        run:  go build -v ./...
 
