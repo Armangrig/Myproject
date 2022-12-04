@@ -12,7 +12,7 @@ on:
         - "1.14"
 
 jobs:
-  go_test:
+  test1: 
    runs-on: ubuntu-latest
 
    steps:
