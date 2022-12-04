@@ -23,13 +23,8 @@ jobs:
        with:
          go-version: ${{ inputs.goversion}}
          
-     
      - name: Build
        run:  go build -v ./...
 
      - name: Test
        run:  go test -v ./...
-       
-     - name: Run main.go
-       run: go run main.go
-       
