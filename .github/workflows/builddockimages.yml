@@ -1,6 +1,10 @@
 name: mydocker
-on: 
-  push: 
+on:
+  workflow_run:
+    workflows:
+      - "go build&test"
+    types:
+      - "completed"
 
 jobs:
   docker1:
