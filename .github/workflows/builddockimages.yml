@@ -17,7 +17,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: Armangrig88/golang:latest
+        tags: armangrig88/golang:latest
         
         
 
