@@ -1,7 +1,7 @@
-FROM Go Versions
+FROM golang:1.15
 
 WORKDIR /app
 
 COPY . .
 
-CMD ["Go Versions", "main.go"]
+CMD ["go", "run", "main.go"]
