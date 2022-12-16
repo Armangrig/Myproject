@@ -4,6 +4,8 @@
 
 Hello World for Golang
 
+Build docker image end push docker hub
+
 ## Simple Command
 
 Run golang program
