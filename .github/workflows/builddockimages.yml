@@ -1,7 +1,6 @@
 name: mydocker
 on: 
   push:
-
 jobs:
   docker1:
    runs-on: ubuntu-22.04
