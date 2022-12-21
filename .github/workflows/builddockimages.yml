@@ -3,13 +3,13 @@ on:
   push:
 jobs:
   docker1:
-   example_matrix:
-    strategy:
+   
+   strategy:
       matrix:
         version: [10, 12, 14]
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
         
-   runs-on: 
+   runs-on: ubuntu-latest
    steps:
     - uses: actions/checkout@v2
 
