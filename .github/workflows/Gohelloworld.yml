@@ -16,7 +16,7 @@ jobs:
   test1:
    strategy:
       matrix:
-        version: [10, 12, 14, 16, 18]
+        version: [10, 12, 14, 18]
         os: [ubuntu-latest]
   
   
