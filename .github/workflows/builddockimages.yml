@@ -9,7 +9,7 @@ jobs:
         version: [10, 12, 14]
         os: [ubuntu-latest]
         
-   runs-on: ubuntu-latest
+   runs-on: ${{ matrix.os }}
    steps:
     - uses: actions/checkout@v2
 
